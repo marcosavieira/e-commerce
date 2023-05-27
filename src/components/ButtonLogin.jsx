@@ -1,6 +1,6 @@
 import { hover } from "../design/styledGuide/hovers";
 import { bgColors, textColors } from "../design/styledGuide/colors";
-import { tipography } from "../design/styledGuide/typography";
+import { typography } from "../design/styledGuide/typography";
 import { useState } from "react";
 
 export const ButtonLogin = () => {
@@ -24,10 +24,11 @@ export const ButtonLogin = () => {
         cursor: "pointer",
         ...(isHover ? hover.buttonLoginHover : bgColors.bgButtons),
         ...textColors.textWhite,
-        ...tipography.tpBodySemiBold,
+        ...typography.tpBodySemiBold,
     };
     return (
         <button
+            type="submit"
             style={{ ...styledButton }}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
