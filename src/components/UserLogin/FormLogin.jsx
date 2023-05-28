@@ -1,15 +1,19 @@
-import { bgColors, textColors } from "../design/styledGuide/colors";
-import { headline, market, typography } from "../design/styledGuide/typography";
-import { BolsaCubos } from "./icons/SacolaCubos/BolsaCubos";
+import { bgColors, textColors } from "../../design/styledGuide/colors";
+import {
+    headline,
+    market,
+    typography,
+} from "../../design/styledGuide/typography";
+import { BolsaCubos } from "../icons/SacolaCubos/BolsaCubos";
 import { ButtonLogin } from "./ButtonLogin";
 import { useForm } from "react-hook-form";
-import style from "../Pages/SignIn/style.module.css";
+import style from "./style.module.css";
+import { Link } from "react-router-dom";
 
 export const FormLogin = () => {
     const {
         register,
         handleSubmit,
-        watch,
         formState: { errors },
     } = useForm();
     const onSubmit = (data) => {
@@ -69,8 +73,8 @@ export const FormLogin = () => {
                 </form>
                 <span style={{ ...typography.tpBodyRegular }}>
                     Não possui conta?
-                    <a
-                        href="#"
+                    <Link
+                        to="/sign-up"
                         style={{
                             ...textColors.priceColor,
                             ...typography.tpBodyRegular,
@@ -80,7 +84,7 @@ export const FormLogin = () => {
                     >
                         {" "}
                         Cadastrar
-                    </a>
+                    </Link>
                 </span>
             </div>
         </>

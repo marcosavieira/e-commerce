@@ -1,4 +1,4 @@
-export const containerSignIn = {
+export const containerForms = {
     width: "100%",
     height: "100vh",
     alignItems: "center",

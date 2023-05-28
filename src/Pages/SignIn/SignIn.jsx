@@ -1,9 +1,9 @@
-import { containerSignIn } from "../../design/styledGuide/Containers";
-import { FormLogin } from "../../components/FormLogin";
+import { containerForms } from "../../design/styledGuide/Containers";
+import { FormLogin } from "../../components/UserLogin/FormLogin";
 export const SignIn = () => {
     return (
         <>
-            <div style={{ ...containerSignIn }}>
+            <div style={{ ...containerForms }}>
                 <FormLogin />
             </div>
         </>

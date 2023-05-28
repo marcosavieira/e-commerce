@@ -1,6 +1,6 @@
-import { hover } from "../design/styledGuide/hovers";
-import { bgColors, textColors } from "../design/styledGuide/colors";
-import { typography } from "../design/styledGuide/typography";
+import { hover } from "../../design/styledGuide/hovers";
+import { bgColors, textColors } from "../../design/styledGuide/colors";
+import { typography } from "../../design/styledGuide/typography";
 import { useState } from "react";
 
 export const ButtonLogin = () => {
