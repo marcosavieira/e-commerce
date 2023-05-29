@@ -67,6 +67,13 @@ export const headline = {
         fontSize: "32px",
         ...textColors.textPrimary,
     },
+    h4Nav: {
+        fontFamily: ("Public-Sans", "sans-serif"),
+        fontStyle: "normal",
+        fontWeight: "500",
+        fontSize: "20px",
+        ...textColors.textPrimary,
+    },
 
     h4SemiBold: {
         fontFamily: ("Public-Sans", "sans-serif"),

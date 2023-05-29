@@ -1,5 +1,6 @@
 .container {
     width: 100%;
+    min-width: max-content;
     height: 112px;
     min-height: 112px;
     max-height: 112px;
@@ -7,4 +8,26 @@
     align-items: center;
     padding-left: 150px;
     padding-right: 150px;
+    justify-content: space-between;
+}
+
+.containerNavs {
+    display: flex;
+    gap: 60px;
+}
+
+.headerTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 227px;
+    height: 72px;
+    justify-content: space-between;
+}
+
+.headerNavs {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 12px;
 }
