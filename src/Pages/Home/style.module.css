@@ -1,4 +1,25 @@
 .containerMain {
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
+    overflow: auto;
+    word-wrap: break-word;
+    height: auto;
+}
+
+.containerProducts {
+    width: 50%;
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.listProducts {
+    display: flex;
+    width: 30%;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
 }

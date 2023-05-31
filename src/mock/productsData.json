@@ -1,0 +1,76 @@
+{
+    "response": [
+        {
+            "id": "1",
+            "description": "Blusa de Moletom Manga Comprida  Dinossauro  - Tam: G",
+            "price": "R$139,90",
+            "picture": "src/mock/mockAssets/blusaDino.png"
+        },
+        {
+            "id": "2",
+            "description": "Lente Canon Ef 85mm F/1.8 US",
+            "price": "R$2.649,90",
+            "picture": "src/mock/mockAssets/lente.png"
+        },
+        {
+            "id": "3",
+            "description": "Apple AirPods Pro Estojo de Recarga MagSafe",
+            "price": "R$2.870,00",
+            "picture": "src/mock/mockAssets/airpods.png"
+        },
+        {
+            "id": "4",
+            "description": "Blusa Manga Longa Básica - Marrom Tam: M",
+            "price": "R$29,99",
+            "picture": "src/mock/mockAssets/blusaWoman.png"
+        },
+        {
+            "id": "5",
+            "description": "Agenda",
+            "price": "R$79,00",
+            "picture": "src/mock/mockAssets/agenda.png"
+        },
+        {
+            "id": "6",
+            "description": "Brinquedo",
+            "price": "R$25,50",
+            "picture": "src/mock/mockAssets/brinquedo.png"
+        },
+        {
+            "id": "7",
+            "description": "Bag",
+            "price": "R$119,99",
+            "picture": "src/mock/mockAssets/bag.png"
+        },
+        {
+            "id": "8",
+            "description": "Fone",
+            "price": "R$1.617,00",
+            "picture": "src/mock/mockAssets/fone.png"
+        },
+        {
+            "id": "9",
+            "description": "Cadeira",
+            "price": "R$149,00",
+            "picture": "src/mock/mockAssets/cadeira.png"
+        },
+        {
+            "id": "10",
+            "description": "Nintendo",
+            "price": "R$2.164,05",
+            "picture": "src/mock/mockAssets/nintendo.png"
+        },
+        {
+            "id": "11",
+            "description": "Caneca",
+            "price": "R$35,00",
+            "picture": "src/mock/mockAssets/caneca.png"
+        },
+        {
+            "id": "12",
+            "description": "Skin",
+            "price": "R$129,99",
+            "picture": "src/mock/mockAssets/skin.png"
+        }
+    ]
+}
